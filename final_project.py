@@ -2,6 +2,7 @@
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
+import kivy as kivy
 
 
 class deathData: #create a class
