@@ -2,7 +2,7 @@
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
-import kivy as kivy
+from PyQt5.QtWidgets import QApplication, QLabel
 
 
 class deathData: #create a class
