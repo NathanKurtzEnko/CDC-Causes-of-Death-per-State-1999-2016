@@ -106,7 +106,7 @@ class deathData: #create a class
 def readFile(path):
     #functon that reads in a file with given file path, file must be a csv and separated by commas
     allLines = []
-    with open(filePath, "r") as csvStream:
+    with open(path, "r") as csvStream:
         namesReader = csv.reader(csvStream, delimiter = ",")
         for line in namesReader:
             allLines.append(line)
